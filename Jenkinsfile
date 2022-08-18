@@ -10,8 +10,7 @@ pipeline {
                git credentialsId: 'git', url: 'https://github.com/kartikeyapro/ks.git'
             }
 			}
-		stages {
-        stage('Clone') {
+		stage('Clone') {
             steps {
                sh 'mvn --version'
             }
