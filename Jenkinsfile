@@ -34,7 +34,7 @@ pipeline {
 			steps {
 			sh 'mvn sonar:sonar \
 				-Dsonar.host.url=http://192.168.29.27:9000 \
-				-Dsonar.login=0aa0427273ee9c9a145488d07045590d48c9c5b6'
+				-Dsonar.login=c0aa3ef0ce8ffd607bab400cd752390363776c28'
 			}
 			}
         stage('package') {
